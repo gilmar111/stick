@@ -1,0 +1,2 @@
+# stick
+modelos de stick
