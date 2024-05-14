@@ -1,0 +1,239 @@
+/*Font Imports*/
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+
+/*BEGIN Fight Stick Controller Styling*/
+
+.controller.custom {
+	
+    background: url(basevideo.svg) center no-repeat;
+    height: 267px;
+    width: 561px;
+    
+}
+
+.custom.disconnected {
+    background: url(https://gamepadviewer.com/stick-assets/disconnected.svg) no-repeat;
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .triggers {
+    width: 163px;
+    height: 99px;
+    position: absolute;
+    right: 25px;
+    bottom: 95px;
+}
+
+
+.custom .trigger-button {
+    width: 40px;
+    height: 30px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
+.custom .trigger-button.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(1);
+}
+
+.custom .trigger-button.left {
+    position: absolute;
+    float: right;
+    bottom: 55px;
+    right: 72px;
+}
+
+
+.custom .trigger-button.right {
+    float: left;
+}
+
+
+.custom .bumpers {
+    width: 147.5px;
+    height: 99px;
+    position: absolute;
+    right: 30px;
+    top: 32px;
+}
+
+.custom .bumper {
+    width: 40px;
+    height: 30px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
+
+.custom .bumper.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(1);
+}
+
+
+.custom .bumper.left {
+    position: absolute;
+    float: right;
+    bottom: 54px;
+    right: 57px;
+}
+
+
+.custom .bumper.right {
+    float: left;
+    
+}
+
+.custom .quadrant {
+    position: absolute;
+    font-family: "Press Start 2P";
+    font-size: 10px;
+    font-weight: normal;
+    top: 20px;
+    left: 270px;
+    color: white;
+}
+
+.custom .p0:after {
+    content: "Player 1";
+}
+
+.custom .p1:after {
+    content: "Player 2";
+}
+
+.custom .p2:after {
+    content: "Player 3";
+}
+
+.custom .p3:after {
+    content: "Player 4";
+}
+
+.custom .arrows {
+    position: absolute;
+    width: 30px;
+    height: 108.5px;
+    top: 17px;
+    left: 223px;
+}
+
+.custom .back, .fight-stick .start {
+    width: 35px;
+    height: 25px;
+    background: #333333;
+    display: block;
+    border-radius: 100%;
+}
+
+.custom .back {
+    float: left;
+}
+
+.custom .start {
+    position: absolute;
+    bottom: 45px;
+    left: -1px;
+}
+
+.custom .back.pressed, .fight-stick .start.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(1);
+}
+
+.custom .abxy {
+    position: absolute;
+    width: 155px;
+    height: 185px;
+    bottom: 35px;
+    left: 236px;
+}
+
+
+
+.custom .button {
+    width: 40px;
+    height: 30px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+}
+
+.custom .button.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(1);
+}
+
+.custom .a {
+    bottom: 120px;
+    left: 32px;
+}
+
+.custom .b {
+    bottom: 135px;
+    right: 34px;
+}
+
+.custom .x {
+    top: -5px;
+    left: 43px
+}
+
+.custom .y {
+    right: 22px;
+    top: -20px;
+}
+
+.custom .fstick {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    top: 33px;
+    left: 135px;
+    background: url(esferas.png)
+}
+
+.custom .fstick.up {
+    background-position-x: -885px;
+}
+
+.custom .fstick.down {
+    background-position-x: -442px;
+}
+
+.custom .fstick.left {
+    background-position-x: -661px;
+}
+
+.custom .fstick.right {
+    background-position-x: -215px;
+}
+
+.custom .fstick.up.right {
+    background-position-x: -100px;
+}
+
+.custom .fstick.up.left {
+    background-position-x: -772px;
+}
+
+.custom .fstick.down.right {
+    background-position-x: -340px;
+}
+
+.custom .fstick.down.left {
+    background-position-x: -1542px;
+}
+
+/*END Fight Stick Controller Styling*/
